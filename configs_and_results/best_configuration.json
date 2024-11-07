@@ -1,0 +1,21 @@
+{
+    "model_configuration": {
+        "poly_degree": 2,
+        "preprocessing": "StandardScaler",
+        "model": "Ridge",
+        "hyperparameters": {
+            "alpha": 51.0,
+            "max_iter": 100
+        }
+    },
+    "metrics": {
+        "training": {
+            "R2": 0.6315384619352027,
+            "RMSE": 0.48241739683004675
+        },
+        "Validation": {
+            "R2": 0.6312167567657654,
+            "RMSE": 0.4858341055978625
+        }
+    }
+}
